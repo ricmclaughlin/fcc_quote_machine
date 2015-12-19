@@ -9,7 +9,7 @@ import { QuoteService } from './components/quoteSrv/quote.service'
 
 
 
-angular.module('fccQuoteMachine', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ui.router', 'ui.bootstrap'])
+angular.module('fccQuoteMachine', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ui.router', 'ui.bootstrap', 'angulike'])
   .constant('malarkey', malarkey)
   .constant('moment', moment)
   .config(config)
